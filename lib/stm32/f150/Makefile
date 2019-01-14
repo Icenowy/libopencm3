@@ -40,7 +40,8 @@ OBJS		= adc.o adc_common_v1.o desig.o flash.o gpio.o \
 
 OBJS            += \
                    dac_common_all.o dma_common_l1f013.o \
-                   gpio_common_all.o i2c_common_all.o iwdg_common_all.o \
+                   gpio_common_all.o gpio_common_f0234.o \
+		   i2c_common_all.o iwdg_common_all.o \
                    pwr_common_all.o spi_common_all.o spi_common_l1f124.o \
                    timer_common_all.o usart_common_all.o usart_common_f124.o \
                    rcc_common_all.o exti_common_all.o \
